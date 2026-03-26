@@ -1,0 +1,46 @@
+{
+	"Name": "BrainInvaders2013a",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-1.0",
+	"Authors": [
+		"E. Vaineau",
+		"A. Barachant",
+		"A. Andreev",
+		"P. Rodrigues",
+		"G. Cattan",
+		"M. Congedo"
+	],
+	"EthicsApprovals": [
+		"Approved by the Ethical Committee of the University of Grenoble Alpes (Comit\u00e9 d'Ethique pour la Recherche Non-Interventionnelle)"
+	],
+	"ReferencesAndLinks": [
+		"https://doi.org/10.5281/zenodo.1494163",
+		"10.5281/zenodo.2649006"
+	],
+	"DatasetDOI": "doi:10.5281/zenodo.1494163",
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "https://doi.org/10.5281/zenodo.2669187",
+			"URL": "https://doi.org/10.5281/zenodo.1494163"
+		}
+	],
+	"Keywords": [
+		"Electroencephalography (EEG)",
+		"P300",
+		"Brain-Computer Interface",
+		"Experiment",
+		"Adaptive",
+		"Calibration"
+	],
+	"PublicationYear": 2019
+}
