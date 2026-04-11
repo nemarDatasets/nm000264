@@ -1,5 +1,5 @@
 {
-  "Name": "Vaineau et al. 2013 — Brain Invaders P300 BCI game (BI2013a)",
+  "Name": "Vaineau, Barachant & Andreev 2013 — Brain Invaders Adaptive versus Non-Adaptive P300 Brain-Computer Interface dataset (BI2013a)",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "derivative",
