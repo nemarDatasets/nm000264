@@ -1,0 +1,159 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000264-blue)](https://doi.org/10.82901/nemar.nm000264)
+
+BrainInvaders2013a
+==================
+
+P300 dataset BI2013a from a "Brain Invaders" experiment.
+
+Dataset Overview
+----------------
+  Code: BrainInvaders2013a
+  Paradigm: p300
+  DOI: https://doi.org/10.5281/zenodo.2669187
+  Subjects: 24
+  Sessions per subject: 8
+  Events: Target=33285, NonTarget=33286
+  Trial interval: [0, 1] s
+  Runs per session: 2
+  File format: mat, csv, gdf
+  Contributing labs: GIPSA-lab
+
+Acquisition
+-----------
+  Sampling rate: 512.0 Hz
+  Number of channels: 16
+  Channel types: eeg=16
+  Channel names: Fp1, Fp2, F5, AFz, F6, T7, Cz, T8, P7, P3, Pz, P4, P8, O1, Oz, O2
+  Montage: standard_1020
+  Hardware: g.USBamp (g.tec, Schiedlberg, Austria)
+  Software: OpenVibe
+  Reference: left earlobe
+  Ground: FZ
+  Sensor type: wet Silver/Silver Chloride electrodes
+  Line frequency: 50.0 Hz
+  Online filters: no digital filter applied
+  Cap manufacturer: g.tec
+  Cap model: g.GAMMAcap
+  Electrode type: wet
+  Electrode material: Silver/Silver Chloride
+
+Participants
+------------
+  Number of subjects: 24
+  Health status: healthy
+  Age: mean=25.96, std=4.46, min=20.0, max=30.0
+  Gender distribution: male=12, female=12
+  BCI experience: volunteers recruited via flyers and university mailing list
+  Species: human
+
+Experimental Protocol
+---------------------
+  Paradigm: p300
+  Task type: visual P300 BCI
+  Number of classes: 2
+  Class labels: Target, NonTarget
+  Study design: compare P300-based BCI with and without adaptive calibration using Riemannian geometry; randomised order of runs (adaptive vs non-adaptive)
+  Feedback type: visual (Brain Invaders video game interface)
+  Stimulus type: visual flashes
+  Stimulus modalities: visual
+  Primary modality: visual
+  Mode: both
+  Training/test split: True
+  Instructions: destroy targets in Brain Invaders BCI video game
+  Stimulus presentation: distance_from_screen=75 to 115 cm, screen=ViewSonic 22 inch, flash_groups=36 symbols distributed in 12 groups
+
+HED Event Annotations
+---------------------
+  Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser
+
+  Target
+    ├─ Sensory-event
+    ├─ Experimental-stimulus
+    ├─ Visual-presentation
+    └─ Target
+
+  NonTarget
+    ├─ Sensory-event
+    ├─ Experimental-stimulus
+    ├─ Visual-presentation
+    └─ Non-target
+
+Paradigm-Specific Parameters
+----------------------------
+  Detected paradigm: p300
+
+Data Structure
+--------------
+  Trials: {'Training_Target': 80, 'Training_non-Target': 400, 'Online': 'variable (depends on user performance)'}
+  Trials context: per_phase
+
+Preprocessing
+-------------
+  Data state: raw EEG with software tagging via USB (note: tagging introduces jitter and latency)
+  Preprocessing applied: False
+  Notes: Tags sent by application to amplifier through USB port and recorded as supplementary channel; tagging process identical in all experimental conditions
+
+Signal Processing
+-----------------
+  Classifiers: xDAWN, Riemannian, RMDM (Riemannian Minimum Distance to Mean)
+  Feature extraction: Covariance/Riemannian, xDAWN, common spatiotemporal pattern
+
+Cross-Validation
+----------------
+  Evaluation type: cross_session
+
+Performance (Original Study)
+----------------------------
+  Balanced Accuracy: used due to unbalanced classes (1:5 ratio Target to non-Target)
+
+BCI Application
+---------------
+  Applications: gaming
+  Environment: small room (4 square meters) with one-way glass window for experimenter observation
+  Online feedback: True
+
+Tags
+----
+  Pathology: Healthy
+  Modality: Visual
+  Type: Perception
+
+Documentation
+-------------
+  Description: EEG recordings of 24 subjects doing a visual P300 Brain-Computer Interface experiment comparing adaptive vs non-adaptive calibration using Riemannian geometry
+  DOI: 10.5281/zenodo.1494163
+  Associated paper DOI: 10.5281/zenodo.2649006
+  License: CC-BY-1.0
+  Investigators: E. Vaineau, A. Barachant, A. Andreev, P. Rodrigues, G. Cattan, M. Congedo
+  Senior author: M. Congedo
+  Institution: GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP
+  Address: GIPSA-lab, 11 rue des Mathématiques, Grenoble Campus BP46, F-38402, France
+  Country: FR
+  Repository: Zenodo
+  Data URL: https://doi.org/10.5281/zenodo.1494163
+  Publication year: 2019
+  Ethics approval: Approved by the Ethical Committee of the University of Grenoble Alpes (Comité d'Ethique pour la Recherche Non-Interventionnelle)
+  Keywords: Electroencephalography (EEG), P300, Brain-Computer Interface, Experiment, Adaptive, Calibration
+
+Abstract
+--------
+This dataset contains electroencephalographic (EEG) recordings of 24 subjects doing a visual P300 Brain-Computer Interface experiment on PC. The visual P300 is an event-related potential elicited by visual stimulation, peaking 240-600 ms after stimulus onset. The experiment was designed to compare the use of a P300-based brain-computer interface with and without adaptive calibration using Riemannian geometry. EEG data were recorded using 16 electrodes during an experiment at GIPSA-lab, Grenoble, France, in 2013.
+
+Methodology
+-----------
+Subjects participated in sessions with two runs (Non-Adaptive and Adaptive, randomised order). Each run had Training (calibration) and Online phases. In Non-Adaptive mode, Training data calibrated the MDM classifier for Online phase. In Adaptive mode, classifier initialized with generic class geometric means from previous experiment and continuously adapted using Riemannian method. Brain Invaders interface: 36 symbols in 12 groups, one repetition = 12 flashes (2 Target, 10 non-Target). Training phase: 80 Target and 400 non-Target flashes (fixed). Online phase: variable repetitions based on performance to destroy targets. Subjects blind to mode of operation.
+
+References
+----------
+Vaineau, E., Barachant, A., Andreev, A., Rodrigues, P. C., Cattan, G. & Congedo, M. (2019). Brain invaders adaptive versus non-adaptive P300 brain-computer interface dataset. arXiv preprint arXiv:1904.09111.
+
+Barachant A, Congedo M (2014) A Plug & Play P300 BCI using Information Geometry. arXiv:1409.0107.
+
+Congedo M, Goyat M, Tarrin N, Ionescu G, Rivet B,Varnet L, Rivet B, Phlypo R, Jrad N, Acquadro M, Jutten C (2011) “Brain Invaders”: a prototype of an open-source P300-based video game working with the OpenViBE platform. Proc. IBCI Conf., Graz, Austria, 280-283.
+Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896
+
+Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8
+
+---
+Generated by MOABB 1.5.0 (Mother of All BCI Benchmarks)
+https://github.com/NeuroTechX/moabb
