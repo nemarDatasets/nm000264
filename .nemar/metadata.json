@@ -1,6 +1,11 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "Vaineau, Barachant & Andreev 2013 — Brain Invaders Adaptive versus Non-Adaptive P300 Brain-Computer Interface dataset (BI2013a)",
+  "description": "This dataset comprises electroencephalographic recordings from 24 healthy subjects performing a visual P300 brain-computer interface task based on the Brain Invaders video game. The study compares adaptive versus non-adaptive calibration approaches using Riemannian geometry for classifier training. EEG data were acquired using 16 electrodes at 512 Hz sampling rate during sessions conducted at GIPSA-lab in 2013, with each subject completing 8 sessions containing both training and online phases.",
+  "methods_description": "EEG recordings were acquired using 16 wet Silver/Silver Chloride electrodes (standard 10-20 montage) with a g.USBamp amplifier (g.tec) at 512 Hz sampling rate. Reference electrode was placed at left earlobe with ground at FZ. Subjects performed a visual P300 task using the Brain Invaders interface with 36 symbols organized in 12 groups. Each session contained two runs (adaptive and non-adaptive, randomized order) with training phases (80 target and 400 non-target flashes) and variable online phases. Data were recorded without digital filtering, with 50 Hz line frequency.",
+  "license": "CC-BY-1.0",
+  "dataset_type": "derivative",
   "authors": {
     "E. Vaineau": {},
     "A. Barachant": {},
@@ -9,64 +14,6 @@
     "G. Cattan": {},
     "M. Congedo": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.5281/zenodo.1494163",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "10.5281/zenodo.2649006",
-      "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000264",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000264",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.21105/joss.01896",
-      "identifier_type": "DOI",
-      "relation_type": "IsReferencedBy"
-    },
-    {
-      "identifier": "10.1038/s41597-019-0104-8",
-      "identifier_type": "DOI",
-      "relation_type": "IsReferencedBy"
-    },
-    {
-      "identifier": "10.5281/zenodo.2669187",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    }
-  ],
-  "title": "Vaineau, Barachant & Andreev 2013 — Brain Invaders Adaptive versus Non-Adaptive P300 Brain-Computer Interface dataset (BI2013a)",
-  "license": "CC-BY-1.0",
-  "dataset_type": "derivative",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "1.8 GB (293 files)"
-  ],
-  "formats": [
-    ".bdf",
-    ".json",
-    ".md",
-    ".tsv",
-    ".yaml",
-    ".yml"
-  ],
-  "description": "This dataset comprises electroencephalographic recordings from 24 healthy subjects performing a visual P300 brain-computer interface task based on the Brain Invaders video game paradigm. The study compares P300-based BCI performance with and without adaptive calibration using Riemannian geometry methods. EEG data were acquired using 16 electrodes across 8 sessions per subject, with each session containing training and online phases in both adaptive and non-adaptive modes. Training phases consisted of 80 target and 400 non-target flashes per phase, while online phases contained variable numbers of trials based on user performance.",
-  "methods_description": "EEG data were recorded at 512 Hz sampling rate using 16 wet Silver/Silver Chloride electrodes in a standard 10-20 montage (Fp1, Fp2, F5, AFz, F6, T7, Cz, T8, P7, P3, Pz, P4, P8, O1, Oz, O2) with g.USBamp hardware and OpenVibe software. Reference electrode was placed at left earlobe with ground at FZ. Subjects performed visual P300 tasks with 36 symbols organized in 12 groups. Each session contained two runs (Non-Adaptive and Adaptive, randomized order), with training phases consisting of 80 target and 400 non-target flashes per run, and variable online phases based on performance. In Non-Adaptive mode, training data calibrated the MDM classifier for the online phase. In Adaptive mode, the classifier was initialized with generic class geometric means from a previous experiment and continuously adapted using Riemannian methods.",
   "keywords": [
     {
       "term": "Electroencephalography",
@@ -92,11 +39,85 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
+      "term": "Brain Invaders"
+    },
+    {
+      "term": "xDAWN"
+    },
+    {
+      "term": "RMDM"
+    },
+    {
       "term": "Experiment"
+    },
+    {
+      "term": "Calibration"
     },
     {
       "term": "Visual P300"
     }
   ],
-  "source_hash": "b204ad00468e4ffa906b3692c9901bf098a7b4fc5371c5e247df9fb89c5d125a"
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.1494163",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.5281/zenodo.2649006",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000264",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.2669187",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000264",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "3.2 GB (366 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Not specified"
+    },
+    {
+      "funder_name": "No funding"
+    }
+  ],
+  "source_hash": "2d85862658824caf66c71a2c8049ee7db99352d256c8a358b7bba9c47ded7165"
 }
