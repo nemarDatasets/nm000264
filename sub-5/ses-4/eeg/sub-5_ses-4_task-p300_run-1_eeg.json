@@ -19,7 +19,9 @@
 	"CapManufacturer": "g.tec",
 	"CapManufacturersModelName": "g.GAMMAcap",
 	"HardwareFilters": {
-		"HardwareFilter": "no digital filter applied"
+		"HardwareFilter": {
+			"Description": "no digital filter applied"
+		}
 	},
 	"TaskDescription": "[visual P300 BCI] compare P300-based BCI with and without adaptive calibration using Riemannian geometry; randomised order of runs (adaptive vs non-adaptive)",
 	"Instructions": "destroy targets in Brain Invaders BCI video game",
