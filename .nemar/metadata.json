@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Vaineau, Barachant & Andreev 2013 — Brain Invaders Adaptive versus Non-Adaptive P300 Brain-Computer Interface dataset (BI2013a)",
-  "description": "This dataset comprises electroencephalographic recordings from 24 healthy subjects performing a visual P300 brain-computer interface task based on the Brain Invaders video game paradigm. The study compares P300-based BCI performance with and without adaptive calibration using Riemannian geometry methods. EEG data were acquired using 16 electrodes during 8 sessions per subject, with each session containing training and online phases in both adaptive and non-adaptive modes.",
-  "methods_description": "EEG recordings were acquired at 512 Hz sampling rate using 16 wet Silver/Silver Chloride electrodes arranged in a standard 10-20 montage (g.tec g.GAMMAcap). Data were collected using g.USBamp hardware and OpenVibe software with reference at left earlobe and ground at FZ. The data represent raw EEG with software tagging via USB. The visual P300 paradigm presented 36 symbols in 12 groups with flashes at 75-115 cm viewing distance. Training phases consisted of 80 target and 400 non-target flashes; online phases had variable repetitions based on user performance. Subjects performed both adaptive and non-adaptive runs in randomized order. Data were collected in 2013 and published in 2019.",
+  "description": "This dataset comprises electroencephalographic recordings from 24 healthy subjects performing a visual P300 brain-computer interface task based on the Brain Invaders video game. The study compares adaptive versus non-adaptive calibration approaches using Riemannian geometry for classifier training. EEG data were acquired using 16 electrodes at 512 Hz sampling rate during sessions conducted at GIPSA-lab, Grenoble, France in 2013.",
+  "methods_description": "EEG recordings were acquired using 16 wet Silver/Silver Chloride electrodes (standard 10-20 montage) with a g.USBamp amplifier (g.tec) at 512 Hz sampling rate. Reference electrode was placed at left earlobe with ground at FZ. Subjects completed 8 sessions with 2 runs each (adaptive and non-adaptive, randomized order). Each run consisted of training (80 target and 400 non-target flashes) and online phases. Visual stimuli were presented as flashes of 36 symbols arranged in 12 groups on a ViewSonic 22-inch screen at 75-115 cm distance. Online feedback was provided through the Brain Invaders video game interface.",
   "license": "CC-BY-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,7 +18,7 @@
     {
       "term": "Electroencephalography",
       "subject_scheme": "MeSH",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D004569"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "P300"
@@ -27,25 +27,28 @@
       "term": "Brain-Computer Interface"
     },
     {
-      "term": "Adaptive calibration"
+      "term": "Riemannian geometry"
     },
     {
-      "term": "Riemannian geometry"
+      "term": "Adaptive calibration"
     },
     {
       "term": "Event-Related Potentials, P300",
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "https://id.nlm.nih.gov/mesh/D018913"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "Experiment"
+    },
+    {
+      "term": "Calibration"
     },
     {
       "term": "Brain Invaders"
     },
     {
-      "term": "xDAWN"
-    },
-    {
-      "term": "RMDM"
+      "term": "Gaming"
     }
   ],
   "related_identifiers": [
@@ -110,5 +113,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "d8e4b898c3c010e8e949d52b398aad4cc62296bc9845bfa64ccc3549216e43f8"
+  "source_hash": "4f0765f52ab54f646dbe912b9f82d8482c85eac35119102f4c8beb07098e6ca7"
 }
