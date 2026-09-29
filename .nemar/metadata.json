@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Vaineau, Barachant & Andreev 2013 — Brain Invaders Adaptive versus Non-Adaptive P300 Brain-Computer Interface dataset (BI2013a)",
-  "description": "This dataset comprises electroencephalographic recordings from 24 healthy subjects performing a visual P300 brain-computer interface task based on the Brain Invaders video game. The study compares adaptive versus non-adaptive calibration approaches using Riemannian geometry for classifier training. EEG data were acquired using 16 electrodes at 512 Hz sampling rate during sessions conducted at GIPSA-lab, Grenoble, France in 2013.",
-  "methods_description": "EEG recordings were acquired using 16 wet Silver/Silver Chloride electrodes (standard 10-20 montage) with a g.USBamp amplifier (g.tec) at 512 Hz sampling rate. Reference electrode was placed at left earlobe with ground at FZ. Subjects completed 8 sessions with 2 runs each (adaptive and non-adaptive, randomized order). Each run consisted of training (80 target and 400 non-target flashes) and online phases. Visual stimuli were presented as flashes of 36 symbols arranged in 12 groups on a ViewSonic 22-inch screen at 75-115 cm distance. Online feedback was provided through the Brain Invaders video game interface.",
+  "description": "This dataset contains EEG recordings from 24 healthy participants performing a visual P300 brain-computer interface task, the Brain Invaders video game, at GIPSA-lab, Grenoble, in 2013. It was designed to compare a P300-based BCI with and without adaptive calibration using Riemannian geometry. Each participant completed eight sessions, each with adaptive and non-adaptive runs. This version is a BIDS-formatted derivative produced with MOABB.",
+  "methods_description": "EEG was recorded at 512 Hz from 16 wet Ag/AgCl electrodes (g.tec g.USBamp, g.GAMMAcap) with a left earlobe reference and OpenViBE software. Each session had two runs, Non-Adaptive and Adaptive, in randomised order. Each run had a Training (calibration) phase and an Online phase. The Training phase had 80 Target and 400 non-Target flashes. The interface presented 36 symbols in 12 groups, and subjects were blind to the mode of operation. Stimulus tags were sent to the amplifier via USB.",
   "license": "CC-BY-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,34 +21,21 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
       "term": "P300"
     },
     {
-      "term": "Brain-Computer Interface"
+      "term": "event-related potentials"
+    },
+    {
+      "term": "adaptive calibration"
     },
     {
       "term": "Riemannian geometry"
-    },
-    {
-      "term": "Adaptive calibration"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "Experiment"
-    },
-    {
-      "term": "Calibration"
-    },
-    {
-      "term": "Brain Invaders"
-    },
-    {
-      "term": "Gaming"
     }
   ],
   "related_identifiers": [
@@ -102,7 +89,7 @@
     "eeg"
   ],
   "sizes": [
-    "3.2 GB (366 files)"
+    "2.99 GB (366 files)"
   ],
   "formats": [
     ".bdf",
