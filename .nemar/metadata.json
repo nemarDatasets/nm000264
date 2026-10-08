@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Vaineau, Barachant & Andreev 2013 — Brain Invaders Adaptive versus Non-Adaptive P300 Brain-Computer Interface dataset (BI2013a)",
-  "description": "This dataset contains EEG recordings from 24 healthy participants performing a visual P300 brain-computer interface task, the Brain Invaders video game, at GIPSA-lab, Grenoble, in 2013. It was designed to compare a P300-based BCI with and without adaptive calibration using Riemannian geometry. Each participant completed eight sessions, each with adaptive and non-adaptive runs. This version is a BIDS-formatted derivative produced with MOABB.",
-  "methods_description": "EEG was recorded at 512 Hz from 16 wet Ag/AgCl electrodes (g.tec g.USBamp, g.GAMMAcap) with a left earlobe reference and OpenViBE software. Each session had two runs, Non-Adaptive and Adaptive, in randomised order. Each run had a Training (calibration) phase and an Online phase. The Training phase had 80 Target and 400 non-Target flashes. The interface presented 36 symbols in 12 groups, and subjects were blind to the mode of operation. Stimulus tags were sent to the amplifier via USB.",
+  "description": "EEG recordings from 24 healthy participants performing a visual P300 Brain-Computer Interface task using the Brain Invaders video game, collected at GIPSA-lab, Grenoble, in 2013. The experiment compares a P300-based BCI with and without adaptive calibration using Riemannian geometry. Each participant completed multiple sessions with randomized adaptive and non-adaptive runs, recorded with 16 wet electrodes at 512 Hz.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (16 Ag/AgCl electrodes, g.GAMMAcap, 512 Hz, left earlobe reference, ground at FZ) using OpenViBE. Each session had two runs (Non-Adaptive and Adaptive, randomized order), each with a Training phase (80 Target and 400 non-Target flashes) and an Online phase. In the Non-Adaptive run the Training data calibrated an MDM classifier. In the Adaptive run the classifier was initialized with generic class geometric means and continuously adapted using a Riemannian method. The interface had 36 symbols in 12 groups, and subjects were blind to the mode of operation.",
   "license": "CC-BY-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,19 +17,15 @@
   "keywords": [
     {
       "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "subject_scheme": "MeSH"
     },
     {
       "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "subject_scheme": "MeSH"
     },
     {
-      "term": "P300"
-    },
-    {
-      "term": "event-related potentials"
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH"
     },
     {
       "term": "adaptive calibration"
@@ -100,5 +96,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "4f0765f52ab54f646dbe912b9f82d8482c85eac35119102f4c8beb07098e6ca7"
+  "source_hash": "aebbb8e29d3c309892dbc26330fd3ba1043e54862744f199b5d1f616886fb355"
 }
