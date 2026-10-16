@@ -8,8 +8,8 @@
  "license": "CC-BY-1.0",
  "doi": "https://doi.org/10.5281/zenodo.2669187",
  "naming": "upstream_filenames_restored",
- "n_files": 73,
- "total_bytes": 1378770552,
+ "n_files": 97,
+ "total_bytes": 1378778304,
  "files": [
   {
    "file": "subject_01/Session1/3.mat",
@@ -448,7 +448,184 @@
    "bytes": 18330808,
    "sha256": "63b818a888b1d254795996a52d5e4f26cd863d3136d6a107ed6791dab5d224da",
    "subject": "24"
+  },
+  {
+   "file": "subject_01/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "1",
+   "url": "https://zenodo.org/record/2669187/files/subject01_session08.zip#subject01_session08/meta.yml"
+  },
+  {
+   "file": "subject_02/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "2",
+   "url": "https://zenodo.org/record/2669187/files/subject02_session08.zip#subject02_session08/meta.yml"
+  },
+  {
+   "file": "subject_03/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "3",
+   "url": "https://zenodo.org/record/2669187/files/subject03_session08.zip#subject03_session08/meta.yml"
+  },
+  {
+   "file": "subject_04/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "4",
+   "url": "https://zenodo.org/record/2669187/files/subject04_session08.zip#subject04_session08/meta.yml"
+  },
+  {
+   "file": "subject_05/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "5",
+   "url": "https://zenodo.org/record/2669187/files/subject05_session08.zip#subject05_session08/meta.yml"
+  },
+  {
+   "file": "subject_06/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "6",
+   "url": "https://zenodo.org/record/2669187/files/subject06_session08.zip#subject06_session08/meta.yml"
+  },
+  {
+   "file": "subject_07/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "7",
+   "url": "https://zenodo.org/record/2669187/files/subject07_session08.zip#subject07_session08/meta.yml"
+  },
+  {
+   "file": "subject_08/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "8",
+   "url": "https://zenodo.org/record/2669187/files/subject08.zip#subject08/meta.yml"
+  },
+  {
+   "file": "subject_09/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "9",
+   "url": "https://zenodo.org/record/2669187/files/subject09.zip#subject09/meta.yml"
+  },
+  {
+   "file": "subject_10/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "10",
+   "url": "https://zenodo.org/record/2669187/files/subject10.zip#subject10/meta.yml"
+  },
+  {
+   "file": "subject_11/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "11",
+   "url": "https://zenodo.org/record/2669187/files/subject11.zip#subject11/meta.yml"
+  },
+  {
+   "file": "subject_12/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "12",
+   "url": "https://zenodo.org/record/2669187/files/subject12.zip#subject12/meta.yml"
+  },
+  {
+   "file": "subject_13/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "13",
+   "url": "https://zenodo.org/record/2669187/files/subject13.zip#subject13/meta.yml"
+  },
+  {
+   "file": "subject_14/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "14",
+   "url": "https://zenodo.org/record/2669187/files/subject14.zip#subject14/meta.yml"
+  },
+  {
+   "file": "subject_15/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "15",
+   "url": "https://zenodo.org/record/2669187/files/subject15.zip#subject15/meta.yml"
+  },
+  {
+   "file": "subject_16/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "16",
+   "url": "https://zenodo.org/record/2669187/files/subject16.zip#subject16/meta.yml"
+  },
+  {
+   "file": "subject_17/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "17",
+   "url": "https://zenodo.org/record/2669187/files/subject17.zip#subject17/meta.yml"
+  },
+  {
+   "file": "subject_18/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "18",
+   "url": "https://zenodo.org/record/2669187/files/subject18.zip#subject18/meta.yml"
+  },
+  {
+   "file": "subject_19/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "19",
+   "url": "https://zenodo.org/record/2669187/files/subject19.zip#subject19/meta.yml"
+  },
+  {
+   "file": "subject_20/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "20",
+   "url": "https://zenodo.org/record/2669187/files/subject20.zip#subject20/meta.yml"
+  },
+  {
+   "file": "subject_21/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "21",
+   "url": "https://zenodo.org/record/2669187/files/subject21.zip#subject21/meta.yml"
+  },
+  {
+   "file": "subject_22/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "22",
+   "url": "https://zenodo.org/record/2669187/files/subject22.zip#subject22/meta.yml"
+  },
+  {
+   "file": "subject_23/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "23",
+   "url": "https://zenodo.org/record/2669187/files/subject23.zip#subject23/meta.yml"
+  },
+  {
+   "file": "subject_24/meta.yml",
+   "bytes": 323,
+   "sha256": "e3fc1136602b023f2c55c08ce4d98383c49648c2d092e90ca85c4744063479f6",
+   "subject": "24",
+   "url": "https://zenodo.org/record/2669187/files/subject24.zip#subject24/meta.yml"
   }
  ],
- "n_subjects_recorded": 24
+ "n_subjects_recorded": 24,
+ "revisions": [
+  {
+   "date": "2026-10-16",
+   "version": "1.0.6",
+   "added_files": 24,
+   "added_bytes": 7752,
+   "note": "Added the per-subject meta.yml (run list with experimental condition and type) that moabb.datasets.BI2013a reads after extraction; it was missing from the original sourcedata snapshot. Each file is the zip member <stem>/meta.yml of the Zenodo record 2669187 archive the loader downloads (session08 for subjects 1-7, matching the loader's extraction order), read with HTTP range requests; CRC-32 checked by zipfile."
+  }
+ ]
 }
