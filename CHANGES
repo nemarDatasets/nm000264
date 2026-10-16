@@ -1,0 +1,6 @@
+1.0.6 2026-10-16
+  - sourcedata: added subject_XX/meta.yml for all 24 subjects (24 files, 7,752 bytes),
+    taken unchanged from the Zenodo release 10.5281/zenodo.2669187 (member <zip stem>/meta.yml of
+    subjectXX.zip, or of subjectXX_session08.zip for subjects 1-7, the copy MOABB's loader keeps).
+    The loader (moabb.datasets.BI2013a) reads it to select runs by condition; without it a load
+    from this deposit's sourcedata/ fails. No existing file changed; the BIDS tree is unchanged.
