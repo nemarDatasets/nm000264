@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Vaineau, Barachant & Andreev 2013 — Brain Invaders Adaptive versus Non-Adaptive P300 Brain-Computer Interface dataset (BI2013a)",
-  "description": "EEG recordings from 24 healthy participants performing a visual P300 Brain-Computer Interface task using the Brain Invaders video game, collected at GIPSA-lab, Grenoble, in 2013. The experiment compares a P300-based BCI with and without adaptive calibration using Riemannian geometry. Each participant completed multiple sessions with randomized adaptive and non-adaptive runs, recorded with 16 wet electrodes at 512 Hz.",
-  "methods_description": "EEG was recorded with a g.USBamp amplifier (16 Ag/AgCl electrodes, g.GAMMAcap, 512 Hz, left earlobe reference, ground at FZ) using OpenViBE. Each session had two runs (Non-Adaptive and Adaptive, randomized order), each with a Training phase (80 Target and 400 non-Target flashes) and an Online phase. In the Non-Adaptive run the Training data calibrated an MDM classifier. In the Adaptive run the classifier was initialized with generic class geometric means and continuously adapted using a Riemannian method. The interface had 36 symbols in 12 groups, and subjects were blind to the mode of operation.",
+  "description": "This dataset contains EEG recordings from 24 healthy participants performing a visual P300 Brain-Computer Interface task based on the Brain Invaders video game. It was designed to compare a P300 BCI with and without adaptive calibration using Riemannian geometry. Data were recorded with 16 electrodes at GIPSA-lab, Grenoble, in 2013, across multiple sessions, each with adaptive and non-adaptive runs.",
+  "methods_description": "EEG was recorded at 512 Hz from 16 wet Ag/AgCl electrodes with a g.USBamp amplifier, using OpenVibe and a left earlobe reference. Each session had two runs (Non-Adaptive and Adaptive, in randomised order). Each run consisted of a training phase (80 target and 400 non-target flashes) and an online phase. In the Brain Invaders interface, 36 symbols were arranged in 12 groups, and the number of repetitions in the online phase depended on performance. In Non-Adaptive mode the MDM classifier was calibrated on the training data. In Adaptive mode it was initialized with generic class means and continuously adapted using Riemannian methods.",
   "license": "CC-BY-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,21 +17,25 @@
   "keywords": [
     {
       "term": "Electroencephalography",
-      "subject_scheme": "MeSH"
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "P300"
     },
     {
       "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH"
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "adaptive calibration"
     },
     {
       "term": "Riemannian geometry"
+    },
+    {
+      "term": "Brain Invaders"
     }
   ],
   "related_identifiers": [
@@ -85,7 +89,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.99 GB (366 files)"
+    "2.99 GB (367 files)"
   ],
   "formats": [
     ".bdf",
@@ -96,5 +100,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "aebbb8e29d3c309892dbc26330fd3ba1043e54862744f199b5d1f616886fb355"
+  "source_hash": "e3297c8550fbed074d55325cf5e0d8542f3a4911e446f8db408d7d060a19d0bb"
 }
