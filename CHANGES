@@ -1,3 +1,9 @@
+1.0.7 2026-10-17
+  - sourcedata: added 219 run files (3,802,991,976 bytes; 1.mat x73, 2.mat x73, 4.mat x73) of the Zenodo 2669187 session archives,
+    the adaptive and online runs moabb.datasets.BI2013a reads for its non-default selections
+    (the deposit had only SessionN/3.mat, the default non-adaptive training run).
+    No existing file changed; the BIDS tree is unchanged.
+
 1.0.6 2026-10-16
   - sourcedata: added subject_XX/meta.yml for all 24 subjects (24 files, 7,752 bytes),
     taken unchanged from the Zenodo release 10.5281/zenodo.2669187 (member <zip stem>/meta.yml of
