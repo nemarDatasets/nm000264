@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Vaineau, Barachant & Andreev 2013 — Brain Invaders Adaptive versus Non-Adaptive P300 Brain-Computer Interface dataset (BI2013a)",
-  "description": "This dataset contains EEG recordings from 24 healthy participants performing a visual P300 Brain-Computer Interface task based on the Brain Invaders video game. It was designed to compare a P300 BCI with and without adaptive calibration using Riemannian geometry. Data were recorded with 16 electrodes at GIPSA-lab, Grenoble, in 2013, across multiple sessions, each with adaptive and non-adaptive runs.",
-  "methods_description": "EEG was recorded at 512 Hz from 16 wet Ag/AgCl electrodes with a g.USBamp amplifier, using OpenVibe and a left earlobe reference. Each session had two runs (Non-Adaptive and Adaptive, in randomised order). Each run consisted of a training phase (80 target and 400 non-target flashes) and an online phase. In the Brain Invaders interface, 36 symbols were arranged in 12 groups, and the number of repetitions in the online phase depended on performance. In Non-Adaptive mode the MDM classifier was calibrated on the training data. In Adaptive mode it was initialized with generic class means and continuously adapted using Riemannian methods.",
+  "description": "EEG recordings from 24 healthy participants performing a visual P300 Brain-Computer Interface task based on the Brain Invaders video game. The experiment compared a P300 BCI with and without adaptive calibration using Riemannian geometry, with adaptive and non-adaptive runs in randomised order across eight sessions per subject. Data were acquired with 16 wet electrodes at 512 Hz at GIPSA-lab, Grenoble, in 2013.",
+  "methods_description": "Sixteen-channel EEG was recorded with a g.USBamp amplifier (g.tec) at 512 Hz, referenced to the left earlobe, using OpenViBE. Each session had two runs (Non-Adaptive and Adaptive, randomised), each with a Training (calibration) phase of 80 Target and 400 non-Target flashes and an Online phase of variable length. The Brain Invaders interface presented 36 symbols in 12 groups. Participants were blind to the mode of operation.",
   "license": "CC-BY-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,16 +17,18 @@
   "keywords": [
     {
       "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "P300"
+      "subject_scheme": "MeSH"
     },
     {
       "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "Event-Related Potentials",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "P300"
     },
     {
       "term": "adaptive calibration"
@@ -89,7 +91,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.99 GB (367 files)"
+    "15.61 GB (659 files)"
   ],
   "formats": [
     ".bdf",
@@ -98,7 +100,8 @@
     ".md",
     ".tsv",
     ".yaml",
-    ".yml"
+    ".yml",
+    ".zip"
   ],
-  "source_hash": "e3297c8550fbed074d55325cf5e0d8542f3a4911e446f8db408d7d060a19d0bb"
+  "source_hash": "7ffe459a0fc45386a0aaeb298e22c3b845caebf618296f9e75131ecb7bbd530e"
 }
